@@ -11,12 +11,12 @@ jobs:
       - linux
       - x64
 
-steps:
-  - name: Verification
-    run: echo "Test de fonctionnement du Runner !"
-  - name: tests de commandes
-    run: |
-      echo "Runner OK"
-      hostname
-      whoami
-      uname -a
+    steps:
+      - name: Verification
+        run: echo "Test de fonctionnement du Runner !"
+      - name: tests de commandes
+        run: |
+          echo "Runner OK"
+          hostname
+          whoami
+          uname -a
