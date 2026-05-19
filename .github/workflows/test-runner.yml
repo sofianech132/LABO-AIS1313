@@ -10,6 +10,7 @@ jobs:
       - self-hosted
       - linux
       - x64
+
 steps:
   - name: Verification
     run: echo "Test de fonctionnement du Runner !"
