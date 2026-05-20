@@ -46,3 +46,4 @@ jobs:
         run: |
           sudo systemctl enable nginx
           sudo systemctl restart nginx
+
