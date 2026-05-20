@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Verification
-        run: echo "Test de fonctionnement du Runner !"
+        run: echo "Test de fonctionnement du Runner 2 !"
       - name: tests de commandes
         run: |
           echo "Runner OK"
